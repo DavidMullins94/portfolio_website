@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+      <link href="index.css" type="text/css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>David Mullins</title>
+    </head>
+
+    <body>
+      <nav>
+        <h2 id="logo">David Mullins</h2>
+        <ul class="navigation-items">
+          <li class="navigation-item"><a href="#about-me" id="aboutme">About Me</a></li>
+          <li class="navigation-item"><a href="#projects" id="projects">Projects</a></li>
+          <li class="navigation-item"><a href="#skills" id="skills">Skills</a></li>
+          <li class="navigation-item"><a href="Contact.html" id="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main>
+
+
+        <!--About Me section if the webpage-->
+        <section id="about-me">
+          <h2>About Me-</h2>
+          <p>I'm David, an aspiring video game, web, and software developer. Throughout most of my life, I've been working 
+            manual labor jobs from roofing to flooring and everything in between. I've also had my fair share 
+            of time in retail and the food industry.</p>
+            <p>After one of my last jobs being a trainer for forklift certification, I still didn't feel like 
+            I was doing what felt right to me. Not quite living up to my potential or doing what I love.</p>
+            <p>I was let go from my last job for voicing my concerns about an unhealthy work environment,
+            I then decided it was time I start developing a skillset.
+            </p>
+        </sectiion>
+        
+
+
+        <!--Projects section of the webpage-->
+        <section id="projects"></section>
+          <h2>Projects-</h2>
+          <details class="project">
+            <summary class="project-title">     
+              <h3 id="project-dropdown">My video game project so far (to be updated)</h3>
+            </summary>
+            <img src="UE5_Image1.png" alt="Vaulting Animation" id="ue5pictures" class="project-image">
+            <img src="UE5_Image2.png" alt="Character Interaction Animation" id="ue5pictures" class="project-image">
+            <p class="project-description">I have been working on a video game in Unreal Engine 5 to help me learn more about video game animation.</p>
+            
+          </details>
+
+          <details class="project">
+            <summary class="project-title">
+              <h3 id="project-dropdown">Level Prototyping (to be updated)</h3>
+            </summary>
+            <img src="UE5_LevelPrototype1.png" alt="Level Prototype" id="ue5pictures" class="project-image">
+            <img src="UE5_LevelPrototype2.png" alt="Level Prototype, alternate angle" id="ue5pictures" class="project-image">
+            <p class="project-description">I love level prototyping for games! Fully functional worlds are to be created for many games in the future. </p>
+          </details>
+
+        </section>
+
+
+
+    
+
+        
+
+
+        <!--         JavaScipt Alert Insert        
+        <script src="./alert.js"></script> -->
+        
+
+
+        <details class="project">
+          <p class="project-description">I have been working on a video game in Unreal Engine 5 to help me learn more about video game animation.</p>
+          <summary class="project-title">
+            <h3 id="project-dropdown">Magic 8-Ball Game</h3>
+          </summary>
+          
+          <section class="main">
+            <div class="questionBox">
+                <h3 id="gamequestion">Ask any Yes or No type of question!!! (click center of ball for answer)</h3>
+                <input type="text" name="fortuneQuestion" 
+                    id="fortuneQuestion"
+                    placeholder="Enter a question here" />
+            </div>
+            <div id="ball">
+                <div id="answer">
+                    <p class="answerText">8</p>
+                </div>
+           </div>
+          </section>
+        </details>
+
+        <script src="8Ball.js"></script>
+
+
+
+        <!--Skills section of the webpage-->
+        <section id="skills"></section>
+          <h2>Skills (more to come)-</h2>
+          <div id="skills-container">
+            <img src="https://s2.svgbox.net/files.svg?ic=html&color=000" width="32" height="32">
+            <img src="https://s2.svgbox.net/files.svg?ic=css&color=000" width="32" height="32">
+            <img src="https://s2.svgbox.net/files.svg?ic=js&color=000" width="32" height="32">
+            <img src="https://s2.svgbox.net/social.svg?ic=github&color=000" width="32" height="32">
+          
+          </div>
+      </section>
+
+
+      </main>
+    </body>
+</html>
